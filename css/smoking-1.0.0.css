@@ -11,43 +11,72 @@
 	This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 */
 
+/**
+*	1. CHECKBOX
+*	2. RADIO
+*	3. SELECT
+*	4. FILE
+*	5. MISC
+*/
+
 /********************************************************************************************************/
-/* CHECKBOX																								*/
+/* 1. CHECKBOX																							*/
 /********************************************************************************************************/
+/* class created on a checkbox element */
 .skg-checkbox{}
 .skg-checkbox:hover{}
 .skg-checkbox:active{}
 
+/* class created when you check/disable a checkbox */
 .skg-checkox.checked{}
 .skg-checkox.disabled{}
 
+
 /********************************************************************************************************/
-/* RADIO																								*/
+/* 2. RADIO																								*/
 /********************************************************************************************************/
+/* class created on a radio element */
 .skg-radio{}
 .skg-radio:hover{}
 .skg-radio:active{}
 
+/* class created when you check/disable a radio */
 .skg-radio.checked{}
 .skg-radio.disabled{}
 
+
 /********************************************************************************************************/
-/* SELECT																								*/
+/* 3. SELECT																							*/
 /********************************************************************************************************/
+/* class created on a select element */
 .skg-select{}
 .skg-select:hover{}
 .skg-select:active{}
 
+/* element used for the select button (where there is the value) */
 .skg-select-button{}
 
-.sk-select-arrow{}
+/* element used for the arrow. Placed after the select .skg-select-button element*/
+.skg-select-arrow{}
+
 
 /********************************************************************************************************/
-/* FILE																									*/
+/* 4. FILE																								*/
 /********************************************************************************************************/
+/* class created on a select element */
 .skg-file{}
 .skg-file:hover{}
 .skg-file:active{}
 
+/* element element used for the file button (where there is the name of the file)*/
 .skg-file-text{}
-.skg-file-button
+
+/* element used for the file button (where there is the button) */
+.skg-file-button{}
+.skg-file-button:hover{}
+.skg-file-button:active{}
+
+
+/********************************************************************************************************/
+/* 5. MISC																								*/
+/********************************************************************************************************/

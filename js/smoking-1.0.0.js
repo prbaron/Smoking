@@ -1,11 +1,3 @@
-/**
-	PROBLEMES
-		- input file ne fonctionne pas sur Opera
-		- pas testé sur IE
-	
-*/
-
-
 /*
 	smokings.js
 	---------------------

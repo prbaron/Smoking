@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Smoking.js Example</title>
+		
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/smoking-example.css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/smoking-1.0.0.min.js">
+
+	</script>
+	<script type="text/javascript">
+		// fonction initialisation
+		$(function(){
+			$("#formExample").smoking();
+		});
+	</script>
+</head>
+<body>
+	<div id="example">
+		<div id="header">
+			<h1>Smoking.js</h1>
+			<em>jQuery plugin by <a href="http://prbaron.free.fr">Pierre Baron</a></em>
+		</div>
+		<p>This plugin allows create divs to style your radio, checkboxes, select or file input as you want!</p>
+		<br/><br/><br/><br/>
+		<form method="post" action="form.php" id="formExample">
+			<fieldset>
+				<label>My first Name is </label>
+				<input type="text" name="firstname"/> <br/>
+				<label>My last name is </label>
+				<input type="text" name="lastname"/>
+			</fieldset>
+			
+			<fieldset>
+				<p>I am :</p>
+				<input type="radio" name="sex" value="male" id="male" checked="checked"/> <label for="male">Male</label><br />
+		       	<input type="radio" name="sex" value="female" id="female" /> <label for="female">Female</label><br />
+		       	<input type="radio" name="sex" value="I don't know" id="dontknow" disabled="disabled"/> <label for="dontknow">I don't know</label><br />
+		       	<input type="radio" name="sex" value="I don't want to tell you" id="donttell" /> <label for="donttell">I don't want to tell you</label><br />
+			</fieldset>
+			<fieldset>
+				<p>I live with :</p>
+				<input type="checkbox" name="family[]" value="father" checked="checked"/> my father<br/>
+				<input type="checkbox" name="family[]" value="mother" checked="checked"/> my mother<br/>
+				<input type="checkbox" name="family[]" value="brother" /> my brother<br/>
+				<input type="checkbox" name="family[]" value="sister"/> my sister<br/>
+					<input type="checkbox" name="family[]" value="alien" disabled="disabled"/> an alien called Roger<br/>
+			</fieldset>
+			<fieldset>
+				<p>I come from :</p>
+				<select name="country" id="country">
+	               <option value="France">France</option>
+	               <option value="Spain">Spain</option>
+	               <option value="Italy">Italy</option>
+	               <option value="United Kingdom">United Kingdom</option>
+	               <option value="Canada">Canada</option>
+	               <option value="USA">USA</option>
+	               <option value="China">China</option>
+	               <option value="Japan">Japan</option>
+		       	</select>	
+			</fieldset>
+			
+			<fieldset>
+				<p>I want to add a file : </p>
+				<input type="file" />
+			</fieldset>
+			<input type="submit" value="Send infos" />
+			<br/><br/>
+		</form>
+	</div> <!-- #example -->
+</body>
+</html>
+	
