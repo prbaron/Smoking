@@ -7,10 +7,12 @@ Introduction
 -------------
 
 Smoking.js is a jQuery plugin to enhance your forms elements. It adds divs to create your own style on several inputs :
-* radio
-* checkbox
-* select
-* file
+<ul>
+  <li>radio</li>
+  <li>checkbox</li>
+  <li>select</li>
+  <li>file</li>
+</ul>
 
 Changelog
 ---------
